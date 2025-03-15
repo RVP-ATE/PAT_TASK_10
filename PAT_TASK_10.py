@@ -121,7 +121,7 @@ class InstagramBot:
 # Main execution block
 if __name__ == "__main__":
     # Initialize the bot with Instagram username and password
-    bot = InstagramBot('rvpkumar100', 'Pavan@223')
+    bot = InstagramBot('yourusername', 'yourpassword')
 
     # Log in to Instagram
     bot.login()
@@ -130,10 +130,10 @@ if __name__ == "__main__":
     bot.notnow_close()
 
     # Search for the user 'guviofficial'
-    bot.search_user('virat.kohli')
+    bot.search_user('guviofficial')
 
     # Navigate to the 'guviofficial' profile
-    bot.navigate_to_profile('virat.kohli')
+    bot.navigate_to_profile('guviofficial')
 
     # Extract and print the follower and following counts of the 'guviofficial' profile
     bot.get_followers_and_following()
